@@ -1,0 +1,21 @@
+.comment-container{
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  padding: .4rem 0;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.comment-option{
+  display: flex;
+  align-items: center;
+}
+
+.comment-container p{
+  font-size: 13px;
+  line-height: 1rem;
+}
+
+.comment-option span{
+  color:rgba(0,0,0,.5);
+  font-size: .8rem;
+}

@@ -1,0 +1,11 @@
+.message-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.message-container p{
+  padding: .6rem;
+  width:80%;
+  font-size: 12px;
+  font-weight: 500;
+}

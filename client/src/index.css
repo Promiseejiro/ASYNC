@@ -1,0 +1,21 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  height: 100%;
+  overflow: auto;
+  /*background-color: #fd683d;*/
+}
+
+::placeholder {
+  color:#000;
+  opacity:.4;
+}
+
+input:focus{
+  outline: none;
+}

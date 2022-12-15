@@ -1,0 +1,68 @@
+.mail-container{
+background-color:  rgba(0,0,0,.1);
+width: 100vw;
+position: relative;
+}
+
+.message-header-container{
+  padding: 1rem 1rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0 0 10px 10px;
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+}
+
+.message-user-info{
+  display: flex;
+}
+
+.message-user-avatar{
+  position: relative;
+}
+
+.online-info{
+  position:absolute;
+  left: 1.5rem;
+  bottom: 0rem;
+}
+
+.online-dot{
+  color:green;
+  font-size: 18px;
+}
+
+.offline{
+  padding: .1rem .2rem;
+  background-color: rgba(0,0,0,.1);
+  font-size: 5px;
+  border-radius: 10px;
+}
+
+.message-user-info span{
+  font-size:10px;
+}
+
+.call-option{
+  margin-left: .8rem;
+  display: flex;
+  align-items: center;
+}
+
+.messages{
+  margin:0 .8rem;
+  padding-top:6rem;
+  padding-bottom: 4rem;
+}
+
+.message-form-section{
+  position:fixed;
+  bottom: 0;
+  left:0;
+  width:100%;
+  margin-top:10rem;
+}

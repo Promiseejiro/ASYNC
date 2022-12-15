@@ -1,0 +1,75 @@
+.dashboard-wrapper{
+  font-family: 'Poppins', sans-serif;
+  color:rgba(0,0,0,.7);
+}
+
+.background-container{
+  height:10rem ;
+  width: 100%;
+  position: relative;
+  margin-bottom: 3rem;
+  
+}
+
+.cover-photo{
+  height: 100%;
+  width: 100%;
+}
+
+.user-avatar{
+  position: absolute;
+  left:1rem;
+  bottom:-2.6rem;
+}
+
+.search-user-info{
+  margin: .5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 1rem;
+}
+
+.header-section{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.user-avarta{
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  border:2px solid black;
+  margin-top:;
+}
+
+.nick-name{
+  margin:.4rem;
+}
+
+.dashboard-user-name{
+  margin-top:.4rem;
+  font-size: 1.2rem;
+}
+
+.friends-container{
+  padding: 0 1rem;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 1rem;
+}
+
+.edit-profile-container{
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  border-bottom:1px solid rgba(0,0,0,.1);
+}
+
+.user-details-section{
+  padding: 1rem;
+}

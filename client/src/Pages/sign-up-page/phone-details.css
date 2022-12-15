@@ -1,0 +1,97 @@
+.user-country-phone-details{
+margin-top: 12rem;
+
+}
+
+.main-wrapper{
+  border:2px solid #fd683d;
+border-radius: 5px;
+padding: 1rem;
+}
+
+.details-wrapper{
+  border:2px solid #fd683d;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.select-country{
+  display: flex;
+  align-items: center;
+  padding: .3rem;
+  height: 2rem;
+  border-right: 2px solid #f4f4f4;
+  
+ 
+}
+
+.select-country img {
+  width: 1.4rem;
+  height: 1.2rem;
+}
+
+.country-code{
+  margin: 0 1rem;
+  border-bottom: 1px solid #f4f4f4;
+  font-size: 15px;
+}
+
+
+.user-phone-number-controller{
+  height: 2rem;
+  display:flex;
+  align-items: center;
+}
+
+.user-phone-number-controller input{
+  border:none;
+  background:#fff;
+  padding: .5rem;
+  border-radius: 5px;
+}
+
+.list-of-country{
+  width: 12rem;
+  text-decoration: none;
+  list-style: none;
+  height: 15rem;
+  position: absolute;
+  overflow: scroll;
+  background-color: #fff;
+  border: 2px solid #f4f4f4;
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,.1);
+  border-radius: 5px;
+}
+
+.list-of-country li{
+  list-style: none;
+  padding: .3rem;
+}
+
+.list-of-country li div {
+  display:flex;
+  align-items: center;
+}
+
+.list-of-country li div img {
+  height: 1.3rem;
+  width:1.3rem;
+  margin-right: .5rem;
+}
+
+#next{
+  display: flex;
+  margin-top:3rem;
+  color:#fff;
+}
+
+#next button{
+  width:100%;
+  background-color:#fd683d ;
+  color:#fff;
+  padding: .2rem .3rem;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+}

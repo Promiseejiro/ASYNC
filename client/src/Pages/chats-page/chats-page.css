@@ -1,0 +1,108 @@
+.chats-container{
+  width: 100vw;
+  background-color: rgba(0,0,0,.1);
+  position: relative;
+}
+
+.search-chats-container{
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #fff;
+  
+}
+
+.search-chat-controller{
+  display:flex;
+  align-items: center;
+background-color: rgba(0,0,0,.1);
+padding: .5rem;
+border-radius: 15px;
+}
+
+.search-chats-container input {
+  background-color: transparent;
+  border:none;
+  margin-left: .3rem;
+}
+
+.edit-chats-btn{
+  display:flex;
+  align-items: center;
+  /* background-color: #a; */
+  padding: .5rem;
+  border-radius: 50%;
+  margin-left: .5rem;
+}
+.chats-options{
+  display:flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+
+.chats{
+  padding: 5rem .5rem 3rem .5rem;
+  overflow: scroll;
+}
+
+.chats a {
+  text-decoration: none !important;
+  color:rgba(0,0,0,.8) !important;
+}
+
+.chat{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:#fff ;
+  padding: .5rem;
+  border-radius: 10px;
+  margin:.4rem
+}
+
+.chat-user-info-container{
+  display: flex;
+  align-items: center;
+}
+
+.form-mark{
+  margin: 0 -.2rem;
+}
+
+.chat-message{
+  font-size: .8rem;
+  color:rgba(0,0,0,.5);
+}
+
+.chat-time-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chats-options{
+  position: fixed;
+  left:0;
+  bottom:0;
+  background-color: #fff;
+  padding: 1rem 1rem 1rem 0rem;
+  width:100%;
+  
+}
+
+.add-new-chats{
+  position: relative;
+}
+
+.add-new-chats >div {
+  margin-top: -2rem;
+  background-color: #fd683d;
+  border-radius:50%;
+  padding: .5rem;
+}

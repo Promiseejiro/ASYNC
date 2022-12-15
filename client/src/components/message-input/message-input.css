@@ -1,0 +1,55 @@
+.input-container{
+  position: absolute;
+  left:0rem;
+  bottom: 0rem;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  padding: 1rem 1rem .2rem 1rem;
+  background-color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+.message-form-controller{
+  background-color: rgba(0,0,0,.1);
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:  .4rem 1rem;
+  border-radius: 15px;
+}
+
+.camera-btn{
+  margin-top: .4rem;
+}
+
+
+.message-form-controller input {
+  border:none;
+  background-color: transparent;
+  flex: 6;
+  
+}
+
+.message-form-controller input:hover{
+  outline: none;
+}
+
+.show-file-icon{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.send-btn{
+  margin-left: .5rem;
+}
+
+#file{
+  display:none;
+}
+
+.sticker-btn{
+/*  font-size: 16px;*/
+}
