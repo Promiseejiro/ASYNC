@@ -11,6 +11,12 @@
   
 }
 
+.back-to-dashboard-btn{
+  position: absolute;
+  left: 1rem;
+  top:1rem;
+}
+
 .cover-photo{
   height: 100%;
   width: 100%;
@@ -42,7 +48,7 @@
   width: 5rem;
   border-radius: 50%;
   border:2px solid black;
-  margin-top:;
+  margin-top:2rem;
 }
 
 .nick-name{

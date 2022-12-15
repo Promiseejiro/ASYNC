@@ -9,13 +9,13 @@ import UserCountryInfo from  "./Pages/sign-up-page/phone-details.jsx"
 import MessagesContainer from"./Pages/mails-page/mail.js";
 import Chats from"./Pages/chats-page/chats-page.js";
 import LoginForm from"./Pages/login-form/login-form.js"; 
-/*import Dashboard from"./Pages/user-dashboard/Dashboard.js";
-/*import Comment from"./Pages/comment-folder/comment.js";
+import Dashboard from"./Pages/user-dashboard/Dashboard.js";
+import Comment from"./Pages/comment-folder/comment.js";
 import PostPage from "./Pages/postPage/postpage.js"
 import IsLoading from "./components/isloading/isloading.js"
 import WebcamCapture from "./components/webcam/webcam.js"
 import HomePage from "./Pages/homepage/homepage.jsx"
-*/
+
 
 function App() {
   const [loading,setIsLoading]=useState(true)
@@ -32,7 +32,7 @@ function App() {
 <Router>
 <Routes>
 
-{/*<Route path="/"exact element=
+<Route path="/"exact element=
 {
  loading ? <IsLoading></IsLoading> :(
   <HomePage></HomePage>)
@@ -48,7 +48,7 @@ function App() {
 
 <Route path="dashboard"element={ <Dashboard></Dashboard>}>
 </Route>
-*/}
+
 <Route path="login" element={ <LoginForm></LoginForm>}>
 </Route>
 <Route path="register">
@@ -57,12 +57,11 @@ function App() {
 <Route path="userinfo"element={<SignUpForm></SignUpForm>}>
 </Route>
 </Route>
-
 <Route path="message"element={ <MessagesContainer></MessagesContainer>}>
 </Route>
 <Route path="chats"element={ <Chats></Chats>}>
 </Route>
-{/*<Route path="comment"element={ <Comment></Comment>}>
+<Route path="comment"element={ <Comment></Comment>}>
 </Route>
 
 <Route path="post"element={ <PostPage></PostPage>}>
@@ -71,7 +70,7 @@ function App() {
 <Route path="webcam"element={ <WebcamCapture></WebcamCapture>}>
 </Route>
 
-*/}
+
 </Routes>
 </Router>
    </div>
