@@ -19,7 +19,6 @@ var path = require("path");
 //middlewares
 const notFound = require("./middewares/not-found.js");
 const authentication = require("./middewares/auth.js");
-
 //database
 const connectDb = require("./db/connectDb.js");
 const port = 5000;

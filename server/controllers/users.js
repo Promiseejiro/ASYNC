@@ -24,6 +24,8 @@ const register = async (req, res) => {
    res.json({name:user.name,token}
   )
 }
+
+
 //for deleting users
 const deleteUsers=async (req,res)=>{
   const deletedUsere =await User.deleteMany({

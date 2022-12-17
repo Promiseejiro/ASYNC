@@ -16,6 +16,7 @@ import UserName from "../../components/user-name/user-name.js";
 import Btn from "../../components/smallBtn/btn.js";
 import Avarta from "../../components/avarta-folder/avarta.js";
 import Message from "../../components/message-folder/message.js";
+import RecordMedia from "../../components/record-media/record-media.js";
 import MessageInput from "../../components/message-input/message-input.js";
 
 // const ENDPOINT = "http://localhost:5000/chat";
@@ -143,12 +144,10 @@ if(b.createdAt < a.createdAt){
                     color="#fd683d"
                     text={msg.msg} key={index}
                   /> ) }
-            // if(msg.sender===1){
-            //   return (<Message bgColor="#fff"bRadius="0 10px 10px 10px"position="flex-start"text={msg.msg}/>)
-            // }
-            // if(msg.to===recipientId){
-            // }
+
           })}
+         
+<RecordMedia/>
         </div>
         <div className="message-form-section">
           <MessageInput sendMessageHandler={sendMessageHandler} />
