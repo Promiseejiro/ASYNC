@@ -7,6 +7,8 @@ import Btn from "../smallBtn/btn"
 import {TiCameraOutline} from "react-icons/ti";
 import {BiSticker} from "react-icons/bi";
 import {AiOutlineSend} from "react-icons/ai";
+import {BiMicrophone} from "react-icons/bi";
+
 
 
 
@@ -38,7 +40,7 @@ const MessageInput =({sendMessageHandler})=>{
        <TiCameraOutline className="sticker-btn"/>
      </label> 
     </div>
-       <Btn icon={<BiSticker/>} to="#"bgColor="transparent"></Btn>
+       <Btn icon={<BiMicrophone/>} to="#"bgColor="transparent"></Btn>
        </div>
       )  }
     </div>

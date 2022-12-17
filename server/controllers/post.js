@@ -2,6 +2,7 @@ const FileSchema =require("../models/file.js")
 const handlePost = async(req, res, next) => { 
     const name = await req.body.name
     console.log(req.file)
+    
    const file =new FileSchema({
       name :req.body.name,
       fileName:req.file.originalname,
