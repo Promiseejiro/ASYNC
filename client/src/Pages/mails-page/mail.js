@@ -1,9 +1,9 @@
- import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useLocation, useSearchParams } from "react-router-dom";
 import jwtdecode from "jwt-decode";
 import queryString from "query-string";
 import io from "socket.io-client";
-import axios from "axios";//css
+import axios from "axios"; //css
 import "./mails.css";
 //icons
 import { BsArrowLeft } from "react-icons/bs";
@@ -11,13 +11,12 @@ import { MdCall } from "react-icons/md";
 import { BsCameraVideo } from "react-icons/bs";
 import { GoPrimitiveDot } from "react-icons/go";
 //components
- import RecordMedia from "../../components/record-media/record-media";
+import RecordMedia from "../../components/record-media/record";
 import UserName from "../../components/user-name/user-name.js";
 import Btn from "../../components/smallBtn/btn.js";
 import Avarta from "../../components/avarta-folder/avarta.js";
 import Message from "../../components/message-folder/message.js";
 import MessageInput from "../../components/message-input/message-input.js";
-
 // const ENDPOINT = "http://localhost:5000/chat";
 
 // const socketIo = io(ENDPOINT)
@@ -155,7 +154,7 @@ const MessagesContainer = () => {
                 />
               );
             }
-            
+
             // if(msg.sender===1){
             //   return (<Message bgColor="#fff"bRadius="0 10px 10px 10px"position="flex-start"text={msg.msg}/>)
             // }
