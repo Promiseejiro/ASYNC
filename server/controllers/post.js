@@ -9,8 +9,6 @@ const handlePost = async(req, res, next) => {
       fileType:req.file.mimetype,
       fileSize:req.file.size
     });
-    
-   
   await file.save()
     res.status(200).json({msg:"successful uploaded"})
 }

@@ -17,4 +17,4 @@ var FileSchema = new mongoose.Schema({
     }
     
 },{timestamps:true}); 
-module.exports = new mongoose.model('conical', FileSchema);
+module.exports = new mongoose.model('images', FileSchema);

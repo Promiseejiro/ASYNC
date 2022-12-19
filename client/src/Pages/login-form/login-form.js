@@ -16,9 +16,7 @@ const SignUpForm = ()=>{
     username:"",
     password:""
   }
-  const [userInfo,setUserInfo] = useState(defaultUser)
-
-  
+  const [userInfo,setUserInfo] = useState(defaultUser);
   const handleChange =(e)=>{
       setUserInfo({
         ...userInfo,[e.target.name]:e.target.value
@@ -33,7 +31,7 @@ const SignUpForm = ()=>{
       console.log(data.data)
   localStorage.setItem("user",JSON.stringify(data.data))
    if(data){
-    navigate("/chats")
+    navigate("/dashboard")
    }
       }
     

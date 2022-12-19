@@ -16,7 +16,7 @@ import UserName from "../../components/user-name/user-name.js";
 import Btn from "../../components/smallBtn/btn.js";
 import Avarta from "../../components/avarta-folder/avarta.js";
 import Message from "../../components/message-folder/message.js";
-import RecordMedia from "../../components/record-media/record-media.js";
+import RecordMedia from "../../components/record-media/record.js";
 import MessageInput from "../../components/message-input/message-input.js";
 
 // const ENDPOINT = "http://localhost:5000/chat";

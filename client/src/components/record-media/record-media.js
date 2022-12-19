@@ -9,6 +9,7 @@ const RecordMedia = () => {
     try {
     const stream = await navigator.mediaDevices.getUserMedia({ video: true, audio: true });
      videos.current.srcObject = stream
+     RecordMedia.current = stream
       videos.current.onloadedmetadata = function(e) {
       videos.current.play();
     }
@@ -29,11 +30,10 @@ const RecordMedia = () => {
 
   // let mediaRecorder = new MediaRecorder(videos)
 const stopRecording =async()=>{
-  const mediaRecorder = new MediaRecorder(videos);
+  const mediaRecorder = new MediaRecorder(RecordMedia);
 MediaRecorder.onstop=function(e){
   let blob = new Blob(chunks,{type:"video/mp4"});
-  
-  recordedFile.current =blob
+  chunks.push(blob)
 }
 }
  
