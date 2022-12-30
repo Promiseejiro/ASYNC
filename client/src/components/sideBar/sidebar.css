@@ -1,0 +1,42 @@
+.main-container {
+  display: block;
+}
+
+.side-bar {
+  display: none;
+}
+
+.nav-link li a {
+  display: block;
+  color: #fff !important;
+}
+
+/* .chats-side-bar{
+     display: none;
+} */
+
+@media (min-width: 650px) {
+  .main-container {
+    display: flex;
+  }
+  .side-bar {
+    width: 100%;
+    border-right: 2px solid #fff;
+    display: block;
+    height: 100vh;
+    background-color: #fd683d;
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+
+  .chats-side-bar {
+    display: block;
+    height: 100vh;
+  }
+}
+
+/* .pages{
+     width: 100%;
+     background-color: rgba(0,0,0,.1);
+} */

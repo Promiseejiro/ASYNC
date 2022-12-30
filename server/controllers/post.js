@@ -2,7 +2,6 @@ const FileSchema =require("../models/file.js")
 const handlePost = async(req, res, next) => { 
     const name = await req.body.name
     console.log(req.file)
-    
    const file =new FileSchema({
       name :req.body.name,
       fileName:req.file.originalname,
@@ -11,7 +10,6 @@ const handlePost = async(req, res, next) => {
       fileSize:req.file.size
     });
     
-   
   await file.save()
     res.status(200).json({msg:"successful uploaded"})
 }

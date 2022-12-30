@@ -1,6 +1,4 @@
-var mongoose = require('mongoose'); 
-
-
+var mongoose = require('mongoose');
 var FileSchema = new mongoose.Schema({ 
     name: String, 
     fileName:{
@@ -17,4 +15,4 @@ var FileSchema = new mongoose.Schema({
     }
     
 },{timestamps:true}); 
-module.exports = new mongoose.model('conical', FileSchema);
+module.exports = new mongoose.model('images', FileSchema);

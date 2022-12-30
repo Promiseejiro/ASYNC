@@ -37,7 +37,7 @@ const [showPassword,setShowPassword]=useState(false)
   localStorage.setItem("user",JSON.stringify(data.data));
    if(data){
      alert(data.data.user.name)
- navigate("/chats")
+ navigate("/user/chats")
    }
       }
      catch(error){
@@ -60,7 +60,7 @@ const [showPassword,setShowPassword]=useState(false)
   </div>
       <PageHeader/>
       
-    <div  className="form-wrapper">
+    <div className="form-wrapper">
           <div className="form-type">
       <h3>Sign Up</h3>
       </div>
@@ -73,6 +73,7 @@ const [showPassword,setShowPassword]=useState(false)
     <label><MdEmail/></label>
       <input type="email"name="email"onChange={handleChange} placeholder="Email" />
         </div>
+        
      <div className="form-control">
     <label><RiLockPasswordFill/></label>
    <input type={showPassword ? "text" :"password"} name="password" onChange={handleChange} placeholder="Password" />
@@ -86,17 +87,18 @@ const [showPassword,setShowPassword]=useState(false)
    <button className="btn" style={{
      color:"#fff",
      backgroundColor:"#fd683d"
-   }}>Sign-Up</button>
-  </form>  
-    </div>
-    <div className="or">
+   }} type='submit'>Sign-Up</button>
+<div className="or">
     <div className="line"></div>
     <span>Or</span>
     </div>
-<button className="btn" style={{
+<button type="button" className="btn" style={{
      color:"#fd683d",
      backgroundColor:"#fff"
    }}><Link to="/login">Login</Link></button>
+  </form>  
+    </div>
+   
   </div>
 
     </div>
